@@ -1,3 +1,10 @@
 public class Professor extends Pessoa{
-    int matricula;
+    private int matricula;
+    public void lecionar() {
+        System.out.printf("%s esta lecionando...\n", getNome());
+    }
+
+    public int getMatricula() {
+        return matricula;
+    }
 }
